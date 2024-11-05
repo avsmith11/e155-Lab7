@@ -1,0 +1,848 @@
+m255
+K4
+z2
+Z0 !s12c _opt6
+Z1 !s99 nomlopt
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+R0
+R1
+Z2 !s12c _opt5
+R1
+R2
+R1
+Z3 !s12c _opt4
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+R3
+R1
+Z4 !s12c _opt3
+R1
+R4
+R1
+R4
+R1
+R4
+R1
+R4
+R1
+R4
+R1
+R4
+R1
+R4
+R1
+R4
+R1
+Z5 !s12c _opt2
+R1
+R5
+R1
+R5
+R1
+R5
+R1
+R5
+R1
+R5
+R1
+R5
+R1
+Z6 !s12c _opt1
+R1
+R6
+R1
+R6
+R1
+R6
+R1
+R6
+R1
+R6
+R1
+R6
+R1
+R6
+R1
+R6
+R1
+R5
+R1
+R5
+R1
+R5
+R1
+R6
+R1
+R6
+R1
+R6
+R1
+R5
+R1
+R6
+R1
+R5
+R1
+R6
+R1
+Z7 !s12c _opt
+R1
+R7
+R1
+!s11f vlog 2024.2 2024.05, May 20 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z8 dC:/Users/oaksh/Desktop/E155/lab3/sim
+T_opt
+!s110 1730241368
+V@R42fP1;WR=_b0`^>CP8d2
+04 19 4 work testbench_shiftRows fast 0
+=1-48e7da43e765-67216357-349-4cf8
+R1
+Z9 !s12f OEM25U2 
+Z10 !s12b OEM100
+Z11 !s124 OEM100
+Z12 !s135 nogc
+o-quiet -auto_acc_if_foreign -work work
+Z13 tCvgOpt 0
+n@_opt
+Z14 OL;O;2024.2;79
+R8
+T_opt1
+!s110 1730487775
+VEWe:DAT12_dS>0Cje[C]Y3
+Z15 04 21 4 work testbench_genRoundKey fast 0
+=1-48e7da43e765-672525df-2eb-7524
+R1
+Z16 !s12f OEM25U8 
+R10
+R11
+R12
+Z17 o-quiet -auto_acc_if_foreign -work work +acc
+R13
+n@_opt1
+R14
+R8
+T_opt2
+!s110 1730492603
+V_a3@Un2Z9afX351lk<a`h1
+R15
+=8-48e7da43e765-672538bb-1e2-321c
+R1
+R16
+R10
+R11
+R12
+R17
+R13
+n@_opt2
+R14
+R8
+T_opt3
+!s110 1730595990
+VWeY95bijL0fjZoOcB`oA80
+04 21 4 work testbench_addRoundKey fast 0
+=5-48e7da43e765-6726cc96-5e-3010
+R1
+R9
+R10
+R11
+R12
+R17
+R13
+n@_opt3
+R14
+R8
+T_opt4
+!s110 1730664395
+VU?<_iB=K03TY4f3AgSlH00
+04 18 4 work testbench_aes_core fast 0
+=12-48e7da43e765-6727d7ca-33e-43d0
+R1
+!s12f OEM25U49 
+R10
+R11
+R12
+R17
+R13
+n@_opt4
+R14
+R8
+T_opt5
+!s110 1730689419
+VU_hf4UbMiKK;Z>N6fbm4C1
+Z18 04 17 4 work testbench_aes_spi fast 0
+=8-48e7da43e765-6728398a-30d-55e8
+R1
+Z19 !s12f OEM25U50 
+R10
+R11
+R12
+Z20 o-quiet -auto_acc_if_foreign -work work -L iCE40UP +acc
+R13
+n@_opt5
+R14
+R8
+T_opt6
+!s110 1730783308
+Vfj1_KS;HO[i0?Lk7kD9]23
+R18
+=1-48e7da43e765-6729a84c-156-d74
+R1
+R19
+R10
+R11
+R12
+R20
+R13
+n@_opt6
+R14
+vaddRoundKey
+2C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/addRoundKey.sv
+Z21 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+Z22 !s110 1730706595
+!i10b 1
+!s100 ZWQled;MiMm1cB[ZZW4e:1
+Icczf`>cIYQ4YJ@Ii>:i@21
+S1
+Z23 dC:/Users/oaksh/Desktop/E155/Lab7/fpga
+w1730659409
+8C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/addRoundKey.sv
+FC:/Users/oaksh/Desktop/E155/Lab7/fpga/src/addRoundKey.sv
+!i122 532
+Z24 L0 7 30
+Z25 VDg1SIo80bB@j0V0VzS_@n1
+Z26 OL;L;2024.2;79
+r1
+!s85 0
+31
+Z27 !s108 1730706595.000000
+!s107 C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/addRoundKey.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/addRoundKey.sv|
+!i113 0
+Z28 o-work work -sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R13
+nadd@round@key
+vaes
+Z29 2C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/top.sv
+R21
+Z30 !s110 1730706594
+!i10b 1
+!s100 h:WXdI_fbW<7[[FPk32JE3
+Io^b5XUh^aLd1;S8JYM:2g3
+S1
+R23
+Z31 w1730663508
+Z32 8C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/top.sv
+Z33 FC:/Users/oaksh/Desktop/E155/Lab7/fpga/src/top.sv
+!i122 528
+L0 7 14
+R25
+R26
+r1
+!s85 0
+31
+Z34 !s108 1730706594.000000
+Z35 !s107 C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/top.sv|
+Z36 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/top.sv|
+!i113 0
+R28
+R13
+vaes_core
+R29
+R21
+R30
+!i10b 1
+!s100 aUBf_?`_W4JC:]MZ05MZJ0
+ILFUiCF1Y1E5WANfYUnzFX2
+S1
+R23
+R31
+R32
+R33
+!i122 528
+L0 80 67
+R25
+R26
+r1
+!s85 0
+31
+R34
+R35
+R36
+!i113 0
+R28
+R13
+vaes_spi
+R29
+R21
+R30
+!i10b 1
+!s100 zHFWk_hZ=X1@GSEY_Q_5a1
+InR50NX0:hUY:j1<S7GTc50
+S1
+R23
+R31
+R32
+R33
+!i122 528
+L0 29 30
+R25
+R26
+r1
+!s85 0
+31
+R34
+R35
+R36
+!i113 0
+R28
+R13
+vbytesToArray
+2C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/bytesToArray.sv
+R21
+!s110 1730492594
+!i10b 1
+!s100 @W523Ig8bl>[Y9Y1>:D@l0
+IN84F7m>JRKNMFnEl?mN:M0
+S1
+R23
+w1730253674
+8C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/bytesToArray.sv
+FC:/Users/oaksh/Desktop/E155/Lab7/fpga/src/bytesToArray.sv
+!i122 282
+L0 7 27
+R25
+R26
+r1
+!s85 0
+31
+!s108 1730492594.000000
+!s107 C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/bytesToArray.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/bytesToArray.sv|
+!i113 0
+R28
+R13
+nbytes@to@array
+vcontrollerFSM
+2C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/controllerFSM.sv
+R21
+R30
+!i10b 1
+!s100 Mgk2]Cc6OggWT>PjVQ6S[2
+Iea2ic>M>UZcADi@nV4lX73
+S1
+R23
+w1730689277
+8C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/controllerFSM.sv
+FC:/Users/oaksh/Desktop/E155/Lab7/fpga/src/controllerFSM.sv
+!i122 526
+L0 7 108
+R25
+R26
+r1
+!s85 0
+31
+R34
+!s107 C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/controllerFSM.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/controllerFSM.sv|
+!i113 0
+R28
+R13
+ncontroller@f@s@m
+vgaloismult
+R29
+R21
+R30
+!i10b 1
+!s100 gQHL]m8I`=RV3z1azlV?E0
+IA1;HL9j3IZ8UFY?jzmG0T0
+S1
+R23
+R31
+R32
+R33
+!i122 528
+L0 239 8
+R25
+R26
+r1
+!s85 0
+31
+R34
+R35
+R36
+!i113 0
+R28
+R13
+vgenRoundKey
+Z37 2C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/genRoundKey.sv
+R21
+R30
+!i10b 1
+!s100 U@`:jZB_?>AeQ;[_Gd`b:3
+IA]mSkRQHKGob8QhK=BKzn0
+S1
+R23
+Z38 w1730583494
+Z39 8C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/genRoundKey.sv
+Z40 FC:/Users/oaksh/Desktop/E155/Lab7/fpga/src/genRoundKey.sv
+!i122 527
+L0 7 25
+R25
+R26
+r1
+!s85 0
+31
+R34
+Z41 !s107 C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/genRoundKey.sv|
+Z42 !s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/genRoundKey.sv|
+!i113 0
+R28
+R13
+ngen@round@key
+vmixcolumn
+R29
+R21
+R30
+!i10b 1
+!s100 Q[H_d^2N]>NON`DX_d^n43
+IAim5@^`>V2n`PDn>PBS8D1
+S1
+R23
+R31
+R32
+R33
+!i122 528
+L0 212 19
+R25
+R26
+r1
+!s85 0
+31
+R34
+R35
+R36
+!i113 0
+R28
+R13
+vmixcolumns
+R29
+R21
+R30
+!i10b 1
+!s100 D3k4<nJKP?dz_V[N1DCkE1
+IYl0X>`<neI=MC=;feGLTc1
+S1
+R23
+R31
+R32
+R33
+!i122 528
+L0 196 8
+R25
+R26
+r1
+!s85 0
+31
+R34
+R35
+R36
+!i113 0
+R28
+R13
+vrotWord
+R37
+R21
+R30
+!i10b 1
+!s100 ?k7DQgHh1R^7J`c?IMGzR0
+I3dN4I[S:gT^b5ob3V``Hf2
+S1
+R23
+R38
+R39
+R40
+!i122 527
+L0 33 5
+R25
+R26
+r1
+!s85 0
+31
+R34
+R41
+R42
+!i113 0
+R28
+R13
+nrot@word
+vroundConstant
+R37
+R21
+R30
+!i10b 1
+!s100 CThz<eZB90E87JVKU8G4;0
+IMXT=T5S;RgJ3>k49mL?GI1
+S1
+R23
+R38
+R39
+R40
+!i122 527
+L0 49 20
+R25
+R26
+r1
+!s85 0
+31
+R34
+R41
+R42
+!i113 0
+R28
+R13
+nround@constant
+vsbox
+2C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_starter.sv
+R21
+!s110 1730241145
+!i10b 1
+!s100 QGOhTB0^dG[;W2VD8_8Mf0
+IC<zS99STmRRHC^IJ0:X:60
+S1
+R23
+w1730180615
+8C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_starter.sv
+FC:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_starter.sv
+!i122 3
+L0 93 10
+R25
+R26
+r1
+!s85 0
+31
+!s108 1730241145.000000
+!s107 C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_starter.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_starter.sv|
+!i113 0
+R28
+R13
+vsbox_sync
+R29
+R21
+R30
+!i10b 1
+!s100 E9zfB]mTZhkll2^>]IA3j3
+I``>@;hS_b:[FM0HXj?`bK0
+S1
+R23
+R31
+R32
+R33
+!i122 528
+L0 172 16
+R25
+R26
+r1
+!s85 0
+31
+R34
+R35
+R36
+!i113 0
+R28
+R13
+vshiftRows
+2C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/shiftRows.sv
+R21
+R30
+!i10b 1
+!s100 ^cRHa0XoQCGT9AWaPlD_92
+I=2dSDcgC<AK_8Ebmkj68B1
+S1
+R23
+w1730664379
+8C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/shiftRows.sv
+FC:/Users/oaksh/Desktop/E155/Lab7/fpga/src/shiftRows.sv
+!i122 521
+R24
+R25
+R26
+r1
+!s85 0
+31
+R34
+!s107 C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/shiftRows.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/shiftRows.sv|
+!i113 0
+R28
+R13
+nshift@rows
+vsubBytes
+2C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/subBytes.sv
+R21
+R22
+!i10b 1
+!s100 J2;TYJj]z39WWPM?i9PJW1
+I6dZQf02XYS0iAaD`<E]OD1
+S1
+R23
+w1730412857
+8C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/subBytes.sv
+FC:/Users/oaksh/Desktop/E155/Lab7/fpga/src/subBytes.sv
+!i122 529
+L0 7 31
+R25
+R26
+r1
+!s85 0
+31
+R34
+!s107 C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/subBytes.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/subBytes.sv|
+!i113 0
+R28
+R13
+nsub@bytes
+vsubWord
+R37
+R21
+R30
+!i10b 1
+!s100 1GOiN>B^Z>QPU2zc[jnXB1
+Ic=K;2BLJ]GN7MX9T:dDQG1
+S1
+R23
+R38
+R39
+R40
+!i122 527
+L0 39 9
+R25
+R26
+r1
+!s85 0
+31
+R34
+R41
+R42
+!i113 0
+R28
+R13
+nsub@word
+vtestbench_addRoundKey
+2C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/addRoundKey_tb.sv
+R21
+R22
+!i10b 1
+!s100 n4KXOa[EfkljOhGFChcJK0
+IdhI6Bo[W7mU`=Q>34A6XB3
+S1
+R23
+w1730659082
+8C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/addRoundKey_tb.sv
+FC:/Users/oaksh/Desktop/E155/Lab7/fpga/src/addRoundKey_tb.sv
+!i122 533
+L0 7 8
+R25
+R26
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/addRoundKey_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/addRoundKey_tb.sv|
+!i113 0
+R28
+R13
+ntestbench_add@round@key
+vtestbench_aes_core
+2C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_core_tb.sv
+R21
+R30
+!i10b 1
+!s100 FIO7h3@d^kFng7_gbKhj30
+ICF3edUYO_1RjF0WkF<HD_1
+S1
+R23
+Z43 w1730165661
+8C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_core_tb.sv
+FC:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_core_tb.sv
+!i122 523
+L0 11 42
+R25
+R26
+r1
+!s85 0
+31
+R34
+!s107 C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_core_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_core_tb.sv|
+!i113 0
+R28
+R13
+vtestbench_aes_sbox
+2C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_sbox_tb.sv
+R21
+R30
+!i10b 1
+!s100 E802:^hIgYbZd^<0leGNb3
+I;EL4mVh:zLAL:bVO_NPDM3
+S1
+R23
+R43
+8C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_sbox_tb.sv
+FC:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_sbox_tb.sv
+!i122 524
+L0 7 67
+R25
+R26
+r1
+!s85 0
+31
+R34
+!s107 C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_sbox_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_sbox_tb.sv|
+!i113 0
+R28
+R13
+vtestbench_aes_spi
+2C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_spi_tb.sv
+R21
+R30
+!i10b 1
+!s100 9=Zc_6z1Y<R?YRXP=<Oja2
+ISBYjTGoMM9Ik9VXa2Hd[]3
+S1
+R23
+w1730687239
+8C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_spi_tb.sv
+FC:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_spi_tb.sv
+!i122 525
+L0 8 73
+R25
+R26
+r1
+!s85 0
+31
+R34
+!s107 C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_spi_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_spi_tb.sv|
+!i113 0
+R28
+R13
+vtestbench_genRoundKey
+2C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/genRoundKey_tb.sv
+R21
+R22
+!i10b 1
+!s100 MV<o8cN6=i4d=EWnC2M]M3
+I0<l<0kzK52oYO0P^_d=F30
+S1
+R23
+w1730492590
+8C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/genRoundKey_tb.sv
+FC:/Users/oaksh/Desktop/E155/Lab7/fpga/src/genRoundKey_tb.sv
+!i122 531
+L0 7 32
+R25
+R26
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/genRoundKey_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/genRoundKey_tb.sv|
+!i113 0
+R28
+R13
+ntestbench_gen@round@key
+vtestbench_shiftRows
+2C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/shiftRows_tb.sv
+R21
+R30
+!i10b 1
+!s100 8;?MZ0C@4eFASAQ:A7Hj@2
+IG<Tiz;<eOO9QjaTz8<86^2
+S1
+R23
+w1730408944
+8C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/shiftRows_tb.sv
+FC:/Users/oaksh/Desktop/E155/Lab7/fpga/src/shiftRows_tb.sv
+!i122 522
+L0 1 12
+R25
+R26
+r1
+!s85 0
+31
+R34
+!s107 C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/shiftRows_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/shiftRows_tb.sv|
+!i113 0
+R28
+R13
+ntestbench_shift@rows
+vtestbench_subBytes
+2C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/subBytes_tb.sv
+R21
+R22
+!i10b 1
+!s100 P`@SFfL:BcN?3LRc^TPJS3
+I95eEeDBZR4e2LCNOgILgk0
+S1
+R23
+w1730413408
+8C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/subBytes_tb.sv
+FC:/Users/oaksh/Desktop/E155/Lab7/fpga/src/subBytes_tb.sv
+!i122 530
+L0 8 26
+R25
+R26
+r1
+!s85 0
+31
+R27
+!s107 C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/subBytes_tb.sv|
+!s90 -reportprogress|300|-work|work|-vopt|-sv|-stats=none|C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/subBytes_tb.sv|
+!i113 0
+R28
+R13
+ntestbench_sub@bytes

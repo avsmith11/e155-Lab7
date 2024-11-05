@@ -1,0 +1,13 @@
+#Start recording tcl command: 11/2/2024 17:01:48
+#Project Location: C:/Users/oaksh/Desktop/E155/Lab7/fpga; Project name: Lab7
+prj_open "C:/Users/oaksh/Desktop/E155/Lab7/fpga/Lab7.rdf"
+prj_remove_source "C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/bytesToArray.sv"
+prj_add_source "C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/addRoundKey.sv"
+prj_add_source "C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/controllerFSM.sv" "C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/genRoundKey.sv" "C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/shiftRows.sv" "C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/subBytes.sv" "C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/top.sv" "C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/addRoundKey.sv"
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+prj_run PAR -impl impl_1
+prj_run Export -impl impl_1
+#Stop recording: 11/2/2024 17:43:45

@@ -1,0 +1,104 @@
+C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/subBytes_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/subBytes_tb.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module testbench_subBytes
+
+Top level modules:
+	testbench_subBytes
+
+} {} {}} C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/shiftRows_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/shiftRows_tb.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module testbench_shiftRows
+
+Top level modules:
+	testbench_shiftRows
+
+} {} {}} C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_core_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_core_tb.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module testbench_aes_core
+
+Top level modules:
+	testbench_aes_core
+
+} {} {}} C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/genRoundKey_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/genRoundKey_tb.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module testbench_genRoundKey
+
+Top level modules:
+	testbench_genRoundKey
+
+} {} {}} C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/shiftRows.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/shiftRows.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module shiftRows
+
+Top level modules:
+	shiftRows
+
+} {} {}} C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/subBytes.sv {2 {vlog -work work -vopt -sv -stats=none C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/subBytes.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module subBytes
+** Warning: C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/subBytes.sv(8): (vlog-13314) Defaulting port 'arrayIn' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+
+Top level modules:
+	subBytes
+
+} {} {}} C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_spi_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_spi_tb.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module testbench_aes_spi
+
+Top level modules:
+	testbench_aes_spi
+
+} {} {}} C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/addRoundKey.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/addRoundKey.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module addRoundKey
+
+Top level modules:
+	addRoundKey
+
+} {} {}} C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/genRoundKey.sv {2 {vlog -work work -vopt -sv -stats=none C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/genRoundKey.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module genRoundKey
+** Warning: C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/genRoundKey.sv(8): (vlog-13314) Defaulting port 'previousKey' kind to 'var' rather than 'wire' due to default compile option setting of -svinputport=relaxed.
+-- Compiling module rotWord
+-- Compiling module subWord
+-- Compiling module roundConstant
+
+Top level modules:
+	genRoundKey
+
+} {} {}} C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/addRoundKey_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/addRoundKey_tb.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module testbench_addRoundKey
+
+Top level modules:
+	testbench_addRoundKey
+
+} {} {}} C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_sbox_tb.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_sbox_tb.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module testbench_aes_sbox
+
+Top level modules:
+	testbench_aes_sbox
+
+} {} {}} C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/controllerFSM.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/controllerFSM.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module controllerFSM
+
+Top level modules:
+	controllerFSM
+
+} {} {}} C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/top.sv {1 {vlog -work work -vopt -sv -stats=none C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/top.sv
+Questa Lattice OEM Edition-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module aes
+-- Compiling module aes_spi
+-- Compiling module aes_core
+-- Compiling module sbox_sync
+-- Compiling module mixcolumns
+-- Compiling module mixcolumn
+-- Compiling module galoismult
+
+Top level modules:
+	aes
+	sbox_sync
+
+} {} {}}

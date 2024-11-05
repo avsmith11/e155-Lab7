@@ -1,0 +1,9 @@
+#Start recording tcl command: 10/30/2024 18:42:44
+#Project Location: C:/Users/oaksh/Desktop/E155/Lab7/fpga; Project name: Lab7
+prj_open "C:/Users/oaksh/Desktop/E155/Lab7/fpga/Lab7.rdf"
+prj_remove_source "C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/aes_starter.sv"
+prj_add_source "C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/top.sv"
+prj_add_source "C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/nextKeyWord.sv"
+prj_remove_source "C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/nextKeyWord.sv"
+prj_add_source "C:/Users/oaksh/Desktop/E155/Lab7/fpga/src/genRoundKey.sv"
+#Stop recording: 10/31/2024 11:55:21
