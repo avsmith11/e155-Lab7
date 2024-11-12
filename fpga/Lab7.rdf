@@ -4,24 +4,30 @@
     <Implementation title="impl_1" dir="impl_1" description="impl_1" synthesis="lse" default_strategy="Strategy1">
         <Options def_top="aes"/>
         <Source name="src/controllerFSM.sv" type="Verilog" type_short="Verilog">
-            <Options VerilogStandard="System Verilog" top_module="controllerFSM"/>
+            <Options VerilogStandard="System Verilog"/>
         </Source>
         <Source name="src/shiftRows.sv" type="Verilog" type_short="Verilog">
-            <Options VerilogStandard="System Verilog" top_module="shiftRows"/>
+            <Options VerilogStandard="System Verilog"/>
         </Source>
         <Source name="src/subBytes.sv" type="Verilog" type_short="Verilog">
-            <Options VerilogStandard="System Verilog" top_module="subBytes"/>
+            <Options VerilogStandard="System Verilog"/>
         </Source>
         <Source name="src/top.sv" type="Verilog" type_short="Verilog">
-            <Options VerilogStandard="System Verilog" top_module="mixcolumns"/>
+            <Options VerilogStandard="System Verilog" top_module="aes"/>
         </Source>
         <Source name="src/genRoundKey.sv" type="Verilog" type_short="Verilog">
-            <Options VerilogStandard="System Verilog" top_module="genRoundKey"/>
+            <Options VerilogStandard="System Verilog"/>
         </Source>
         <Source name="src/addRoundKey.sv" type="Verilog" type_short="Verilog">
-            <Options VerilogStandard="System Verilog" top_module="addRoundKey"/>
+            <Options VerilogStandard="System Verilog"/>
+        </Source>
+        <Source name="lab7.pdc" type="Physical Constraints File" type_short="PDC">
+            <Options/>
         </Source>
         <Source name="sim/sim.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="source/impl_1.xcf" type="Programming Project File" type_short="Programming">
             <Options/>
         </Source>
         <Source name="src/sbox.txt" type="Unknown Type" type_short="Unknown">
